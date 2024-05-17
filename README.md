@@ -1,4 +1,4 @@
-**Nginx Reverse Proxy with Flask Application**
+# Nginx Reverse Proxy with Flask Application
 This project demonstrates the setup of a reverse proxy using Nginx to forward traffic to a Flask application running within Docker containers. The Flask application serves as the backend service, while Nginx acts as the front-facing server.
 
 Overview
