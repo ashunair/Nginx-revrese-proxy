@@ -23,7 +23,7 @@ Follow these steps to set up and run the project:
 1. **Clone the Repository**: Clone this repository to your local machine.
 
     ```bash
-    git clone <repository-url>
+    <span style="color: black;">git clone <repository-url></span>
     ```
 
 2. **Build Docker Images**: Navigate to the project directory and build the Docker images for the Flask application and Nginx.
