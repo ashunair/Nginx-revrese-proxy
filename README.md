@@ -29,8 +29,8 @@ Follow these steps to set up and run the project:
 
     ```bash
     cd <project-directory>
-    docker build -t flask-app -f Dockerfile_flask .
-    docker build -t nginx-reverse-proxy -f Dockerfile_nginx .
+    docker build -t flask-app -f flask.Dockerfile .
+    docker build -t nginx-reverse-proxy -f nginx.Dockerfile .
     ```
 
 3. **Run Docker Containers**: Start the Docker containers for the Flask application and Nginx.
