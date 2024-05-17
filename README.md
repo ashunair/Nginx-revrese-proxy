@@ -34,6 +34,7 @@ docker run -d -p 8081:5000 --name flask_app flask-app
 
 # Run Nginx container
 docker run -d -p 8080:8080 --name nginx --link flask_app:flask_app nginx-reverse-proxy
+
 Access the Application: Access the Flask application through Nginx by visiting http://localhost:8080 or http://<host-ip>:8080.
 
 Customization
