@@ -4,10 +4,11 @@ This project demonstrates the setup of a reverse proxy using Nginx to forward tr
 
 ## Overview
 
-The project comprises two Docker containers:
+The project comprises two Docker containers and one Nginx config file:
 
 1. **Flask Container**: A Docker container running a simple Flask application.
 2. **Nginx Container**: A Docker container running Nginx acting as a reverse proxy.
+3. **Nginx Config**: A nginx.conf file to config nginx web server for handling incoming requests and proxy them to the Flask application.
 
 ## Prerequisites
 
